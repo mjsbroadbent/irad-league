@@ -1,0 +1,742 @@
+{
+ "_note": "Clubs of the 2026 Irad League. ground = key in grounds. colour = [primary, secondary] for the site's accents.",
+ "clubs": [
+  {
+   "id": "neftchi",
+   "brand": "fk-neftchi",
+   "name": {
+    "en": "Neftchi Nurzhan",
+    "ir": "Neftchi Nurzhan",
+    "ru": "Нефтчи Нуржан"
+   },
+   "short": {
+    "en": "Neftchi",
+    "ir": "Neftchi",
+    "ru": "Нефтчи"
+   },
+   "city": {
+    "en": "Nurzhan",
+    "ir": "Nurzhan",
+    "ru": "Нуржан"
+   },
+   "founded": 1958,
+   "colours": {
+    "en": "Black and orange",
+    "ir": "Kara jana sarı-kızıl",
+    "ru": "Чёрно-оранжевые"
+   },
+   "colour": [
+    "#141414",
+    "#EE6A12"
+   ],
+   "ground": "nurgaz-stadium",
+   "owner": {
+    "en": "NurGaz",
+    "ir": "NurGaz",
+    "ru": "«НурГаз»"
+   },
+   "titles": 13,
+   "about": {
+    "en": "Nurzhan's club, founded in 1958 as Neftyanik Kobozev; 13 league titles, the most in Irad.",
+    "ir": "1958-jılı Neftyanik Kobozev bolup negizdelgen Nurzhan klubu; 13 chempionduk titul, Iradda eñ köp.",
+    "ru": "Клуб из Нуржана, основан в 1958 году как «Нефтяник» Кобозев; 13 чемпионских титулов, больше всех в Ираде."
+   },
+   "history": {
+    "en": [
+     "Founded in 1958 as Neftyanik Kobozev, the team of the Iradneft oil trust, the club was the strongest side of the Iradi SSR. It played in the Central Asian zone of the Soviet third tier, later the Second League, from 1971 to 1991, and spent the 1984 season in the First League. Its striker Vadim Ten scored 141 league goals between 1975 and 1987.",
+     "The club passed to NurGaz when Iradneft became the company in 1993 and registered under the federation's naming rules as Neftchi Nurzhan; its supporters still call it Neftyanik. Neftchi won eight of the first twelve Irad League titles and holds the record of 13 championships. Rustam Bekzatov has been club president since 2009.",
+     "The club plays at the 16,500-seat NurGaz Stadium, opened in 1958 as the Neftyanik Stadium. IradOdin carries Russian-language commentary of its matches."
+    ],
+    "ru": [
+     "Клуб основан в 1958 году как «Нефтяник» Кобозев, команда треста «Ираднефть», и был сильнейшей командой Ирадской ССР. С 1971 по 1991 год выступал в среднеазиатской зоне третьего эшелона советского футбола, затем во Второй лиге, а сезон 1984 года провёл в Первой лиге. Нападающий Вадим Тен забил 141 гол в чемпионатах 1975–1987 годов.",
+     "В 1993 году, когда «Ираднефть» стала компанией «НурГаз», клуб перешёл к ней и по правилам федерации об именах зарегистрировался как «Нефтчи Нуржан»; болельщики по-прежнему называют его «Нефтяником». «Нефтчи» выиграл восемь из первых двенадцати чемпионатов Лиги Ирада и владеет рекордом в 13 титулов. Президент клуба с 2009 года — Рустам Бекзатов.",
+     "Клуб играет на стадионе «НурГаз» (16 500 мест), открытом в 1958 году как стадион «Нефтяник». ИрадОдин ведёт трансляции его матчей с русским комментарием."
+    ]
+   },
+   "former": {
+    "en": "Neftyanik Kobozev (1958–1993)",
+    "ir": "Neftyanik Kobozev (1958–1993)",
+    "ru": "«Нефтяник» Кобозев (1958–1993)"
+   }
+  },
+  {
+   "id": "tulpar",
+   "brand": "fk-tulpar",
+   "name": {
+    "en": "Tulpar Talas",
+    "ir": "Tulpar Talas",
+    "ru": "Тулпар Талас"
+   },
+   "short": {
+    "en": "Tulpar",
+    "ir": "Tulpar",
+    "ru": "Тулпар"
+   },
+   "city": {
+    "en": "Talas",
+    "ir": "Talas",
+    "ru": "Талас"
+   },
+   "founded": 1993,
+   "colours": {
+    "en": "White and crimson",
+    "ir": "Ak jana kızıl",
+    "ru": "Бело-малиновые"
+   },
+   "colour": [
+    "#B3132D",
+    "#FFFFFF"
+   ],
+   "ground": "silk-road-arena",
+   "owner": {
+    "en": "Talas Commercial Development Group",
+    "ir": "Talas Kommertsiyalık Önüktürüü Tobu",
+    "ru": "Talas Commercial Development Group"
+   },
+   "titles": 11,
+   "about": {
+    "en": "The capital's club, the former Dinamo Talas, named after the winged horse of the epic; 11 league titles.",
+    "ir": "Murdagı Dinamo Talas, eposton kanattuu attın atın alıp jürgön borbor shaardın klubu; 11 chempionduk titul.",
+    "ru": "Столичный клуб, бывшее «Динамо» Талас, названный в честь крылатого коня из эпоса; 11 чемпионских титулов."
+   },
+   "history": {
+    "en": [
+     "The club descends from Dinamo Talas, the Soviet-era team of the republican interior ministry, which played mainly in the republican championship and cup. When the federation's 1993 rules required Iradi or neutral club names, it took the name Tulpar, after the winged horse of Iradi epic.",
+     "Neftchi dominated the early seasons of the Irad League. The Talas Commercial Development Group bought the club in 2011 and rebuilt its ground as the Silk Road Arena in 2014; Tulpar has since been the league's leading side, winning six of the ten titles from 2015, and has 11 championships in all.",
+     "The club's women's team and Universitet Talas have led the Women's League since its foundation in 2009. The national team plays in Tulpar's colours of white and crimson at the Silk Road Arena."
+    ],
+    "ru": [
+     "Клуб ведёт историю от «Динамо» Талас, команды республиканского МВД советского времени, игравшей в основном в республиканском чемпионате и кубке. Когда правила федерации 1993 года потребовали ирадских или нейтральных названий, клуб взял имя «Тулпар» — в честь крылатого коня ирадского эпоса.",
+     "В первые сезоны Лиги Ирада доминировал «Нефтчи». В 2011 году клуб купила Talas Commercial Development Group, которая в 2014 году перестроила его стадион в Арену «Шёлковый путь»; с тех пор «Тулпар» — ведущая команда лиги: шесть из десяти титулов начиная с 2015 года, всего 11 чемпионств.",
+     "Женская команда клуба вместе с «Университетом» лидирует в Женской лиге с её основания в 2009 году. Национальная сборная играет в цветах «Тулпара», белом и малиновом, на Арене «Шёлковый путь»."
+    ]
+   },
+   "former": {
+    "en": "Dinamo Talas (to 1993)",
+    "ir": "Dinamo Talas (1993-jılga cheyin)",
+    "ru": "«Динамо» Талас (до 1993)"
+   }
+  },
+  {
+   "id": "temirjolchu",
+   "brand": "fk-temirjolchu",
+   "name": {
+    "en": "Temirjolchu Nurzhan",
+    "ir": "Temirjolchu Nurzhan",
+    "ru": "Темиржолчу Нуржан"
+   },
+   "short": {
+    "en": "Temirjolchu",
+    "ir": "Temirjolchu",
+    "ru": "Темиржолчу"
+   },
+   "city": {
+    "en": "Nurzhan",
+    "ir": "Nurzhan",
+    "ru": "Нуржан"
+   },
+   "founded": 1936,
+   "colours": {
+    "en": "Navy and sky blue",
+    "ir": "Kara-kök jana asman-kök",
+    "ru": "Тёмно-синие и голубые"
+   },
+   "colour": [
+    "#16325C",
+    "#5DA9E0"
+   ],
+   "ground": "lokomotiv-stadium",
+   "owner": {
+    "en": "Irad Temir Jolu",
+    "ir": "Irad Temir Jolu",
+    "ru": "Irad Temir Jolu (железная дорога Ирада)"
+   },
+   "titles": 3,
+   "about": {
+    "en": "The railway workers' club of Nurzhan, the former Lokomotiv Kobozev; 3 league titles.",
+    "ir": "Nurzhandın temir jolchular klubu, murdagı Lokomotiv Kobozev; 3 chempionduk titul.",
+    "ru": "Клуб железнодорожников Нуржана, бывший «Локомотив» Кобозев; 3 чемпионских титула."
+   },
+   "history": {
+    "en": [
+     "Founded in 1936 as Lokomotiv Kobozev, the railway workers' club played mainly in the republican championship and cup of the Soviet period. Under the federation's 1993 naming rules it became Temirjolchu Nurzhan.",
+     "Owned by Irad Temir Jolu, the club plays at the Lokomotiv Stadium by Nurzhan station and has won the Irad League three times."
+    ],
+    "ru": [
+     "Основанный в 1936 году как «Локомотив» Кобозев, клуб железнодорожников в советское время играл в основном в республиканском чемпионате и кубке. По правилам федерации об именах 1993 года стал «Темиржолчу Нуржан».",
+     "Клуб принадлежит Irad Temir Jolu, играет на стадионе «Локомотив» у вокзала Нуржана и трижды выигрывал Лигу Ирада."
+    ]
+   },
+   "former": {
+    "en": "Lokomotiv Kobozev (1936–1993)",
+    "ir": "Lokomotiv Kobozev (1936–1993)",
+    "ru": "«Локомотив» Кобозев (1936–1993)"
+   }
+  },
+  {
+   "id": "attelkom",
+   "brand": "fk-attelkom",
+   "name": {
+    "en": "Attelkom Talas",
+    "ir": "Attelkom Talas",
+    "ru": "Аттелком Талас"
+   },
+   "short": {
+    "en": "Attelkom",
+    "ir": "Attelkom",
+    "ru": "Аттелком"
+   },
+   "city": {
+    "en": "Talas",
+    "ir": "Talas",
+    "ru": "Талас"
+   },
+   "founded": 1996,
+   "colours": {
+    "en": "Green and white",
+    "ir": "Jashıl jana ak",
+    "ru": "Зелёно-белые"
+   },
+   "colour": [
+    "#1E8A3A",
+    "#FFFFFF"
+   ],
+   "ground": "attelkom-park",
+   "owner": {
+    "en": "Attelkom",
+    "ir": "Attelkom",
+    "ru": "«Аттелком»"
+   },
+   "titles": 2,
+   "about": {
+    "en": "The telecom company's club in Talas, founded in 1996; 2 league titles.",
+    "ir": "1996-jılı negizdelgen Talastagı telekom kompaniyasının klubu; 2 chempionduk titul.",
+    "ru": "Клуб телекоммуникационной компании в Таласе, основан в 1996 году; 2 чемпионских титула."
+   },
+   "history": {
+    "en": [
+     "Attelkom founded its club in Talas in 1996. It plays at Attelkom Park in the city's western corridor and has won the Irad League twice."
+    ],
+    "ru": [
+     "«Аттелком» основал свой клуб в Таласе в 1996 году. Команда играет на стадионе «Аттелком Парк» в западном коридоре города и дважды выигрывала Лигу Ирада."
+    ]
+   },
+   "former": null
+  },
+  {
+   "id": "universitet",
+   "brand": "fk-universitet",
+   "name": {
+    "en": "Universitet Talas",
+    "ir": "Universitet Talas",
+    "ru": "Университет Талас"
+   },
+   "short": {
+    "en": "Universitet",
+    "ir": "Universitet",
+    "ru": "Университет"
+   },
+   "city": {
+    "en": "Talas",
+    "ir": "Talas",
+    "ru": "Талас"
+   },
+   "founded": 1958,
+   "colours": {
+    "en": "Purple and gold",
+    "ir": "Kızgılt-kök jana altın",
+    "ru": "Фиолетово-золотые"
+   },
+   "colour": [
+    "#4B2A7B",
+    "#C9A43A"
+   ],
+   "ground": "tsu-stadium",
+   "owner": {
+    "en": "Talas State University",
+    "ir": "Talas mamlekettik universiteti",
+    "ru": "Таласский государственный университет"
+   },
+   "titles": 1,
+   "about": {
+    "en": "The club of Talas State University, once champions of Irad; its women's team leads the Women's League.",
+    "ir": "Talas mamlekettik universitetinin klubu, bir jolu Irad chempionu; ayaldar komandası Ayaldar ligasında aldıñkı katarda.",
+    "ru": "Клуб Таласского государственного университета, однажды чемпион Ирада; женская команда — среди лидеров Женской лиги."
+   },
+   "history": {
+    "en": [
+     "The university club dates from the foundation of Talas State University in 1958 and plays at the TSU Stadium on the campus. Its motto, Bilim jaryk (knowledge is light), is on the crest. It has won the Irad League once.",
+     "Its women's team and Tulpar's have led the six-club Women's League since it was founded in 2009."
+    ],
+    "ru": [
+     "Университетский клуб ведёт историю с основания Таласского государственного университета в 1958 году и играет на стадионе ТГУ в кампусе. На эмблеме — девиз Bilim jaryk («Знание — свет»). Однажды выигрывал Лигу Ирада.",
+     "Его женская команда вместе с командой «Тулпара» лидирует в Женской лиге из шести клубов с её основания в 2009 году."
+    ]
+   },
+   "former": null
+  },
+  {
+   "id": "surma",
+   "brand": "fk-surma",
+   "name": {
+    "en": "Surma Chatkal",
+    "ir": "Surma Chatkal",
+    "ru": "Сурма Чаткал"
+   },
+   "short": {
+    "en": "Surma",
+    "ir": "Surma",
+    "ru": "Сурма"
+   },
+   "city": {
+    "en": "Sary-Bulak District",
+    "ir": "Sarı-Bulak aymagı",
+    "ru": "Сары-Булакский район"
+   },
+   "founded": 1961,
+   "colours": {
+    "en": "Steel grey, graphite and white (\"the Greys\")",
+    "ir": "Bolot-boz, grafit jana ak (\"Bozdor\")",
+    "ru": "Стально-серые, графитовые и белые («Серые»)"
+   },
+   "colour": [
+    "#2B3038",
+    "#C4CBD2"
+   ],
+   "ground": "kombinat-stadium",
+   "owner": {
+    "en": "Iradi Antimony and Rare Metals Combine",
+    "ir": "Irad surma jana sırkı metaldar kombinatı",
+    "ru": "Ирадский комбинат сурьмы и редких металлов"
+   },
+   "titles": 1,
+   "about": {
+    "en": "The antimony combine's works club, founded in 1961 as the Sary-Bulak works team; 1 league title.",
+    "ir": "1961-jılı Sarı-Bulak zavodunun komandası bolup negizdelgen surma kombinatının klubu; 1 chempionduk titul.",
+    "ru": "Заводской клуб сурьмяного комбината, основан в 1961 году как команда Сары-Булакского рудника; 1 чемпионский титул."
+   },
+   "history": {
+    "en": [
+     "Founded in 1961 as the team of the Sary-Bulak works, the club is backed by the Iradi Antimony and Rare Metals Combine and takes its name from antimony (surma). Known as the Greys, it has won the Irad League once."
+    ],
+    "ru": [
+     "Основанный в 1961 году как команда Сары-Булакского рудника, клуб поддерживается Ирадским комбинатом сурьмы и редких металлов и назван по сурьме (surma). Команду называют «Серыми»; однажды она выигрывала Лигу Ирада."
+    ]
+   },
+   "former": null
+  },
+  {
+   "id": "dastgoh",
+   "brand": "fk-dastgoh",
+   "name": {
+    "en": "Dastgoh Nurzhan",
+    "ir": "Dastgoh Nurzhan",
+    "ru": "Дастгох Нуржан"
+   },
+   "short": {
+    "en": "Dastgoh",
+    "ir": "Dastgoh",
+    "ru": "Дастгох"
+   },
+   "city": {
+    "en": "Nurzhan",
+    "ir": "Nurzhan",
+    "ru": "Нуржан"
+   },
+   "founded": 1993,
+   "colours": {
+    "en": "Yellow and graphite",
+    "ir": "Sarı jana grafit",
+    "ru": "Жёлто-графитовые"
+   },
+   "colour": [
+    "#F2B705",
+    "#2B2F33"
+   ],
+   "ground": "dastgoh-stadium",
+   "owner": {
+    "en": "Nurzhanmash",
+    "ir": "Nurzhanmash",
+    "ru": "«Нуржанмаш»"
+   },
+   "titles": 0,
+   "about": {
+    "en": "The Nurzhanmash works club of Nurzhan's Dastgoh district, founded in 1993.",
+    "ir": "1993-jılı negizdelgen Nurzhandın Dastgoh rayonundagı Nurzhanmash zavodunun klubu.",
+    "ru": "Заводской клуб «Нуржанмаша» из Дастгохского района Нуржана, основан в 1993 году."
+   },
+   "history": {
+    "en": [
+     "Founded in 1993 by the engineering works Nurzhanmash in the forge and foundry district of Dastgoh, the club has not yet won the Irad League."
+    ],
+    "ru": [
+     "Клуб основан в 1993 году машиностроительным заводом «Нуржанмаш» в кузнечно-литейном Дастгохском районе. Лигу Ирада пока не выигрывал."
+    ]
+   },
+   "former": null
+  },
+  {
+   "id": "iyikjanyl",
+   "brand": "fc-iyikjanyl",
+   "name": {
+    "en": "FC Iyık Janyl",
+    "ir": "FC Iyık Janyl",
+    "ru": "ФК «Ийык Джаныл»"
+   },
+   "short": {
+    "en": "Iyık Janyl",
+    "ir": "Iyık Janyl",
+    "ru": "Ийык Джаныл"
+   },
+   "city": {
+    "en": "Iyık Janyl",
+    "ir": "Iyık Janyl",
+    "ru": "Ийык Джаныл"
+   },
+   "founded": 1994,
+   "colours": {
+    "en": "Ink, turquoise and gold",
+    "ir": "Kara-kök, firuza jana altın",
+    "ru": "Тёмно-синие, бирюзовые и золотые"
+   },
+   "colour": [
+    "#1E2F4D",
+    "#1FA3A8"
+   ],
+   "ground": "iyikjanyl-city-stadium",
+   "owner": {
+    "en": "City of Iyık Janyl",
+    "ir": "Iyık Janyl shaarı",
+    "ru": "Город Ийык Джаныл"
+   },
+   "titles": 0,
+   "about": {
+    "en": "The holy city's club, founded for the first Irad League season in 1994.",
+    "ir": "1994-jılı Irad Ligasynyn birinchi sezonu üchün negizdelgen ıyık shaardın klubu.",
+    "ru": "Клуб святого города, основан к первому сезону Лиги Ирада в 1994 году."
+   },
+   "history": {
+    "en": [
+     "The City of Iyık Janyl founded the club for the first season of the Irad League in 1994. Its crest shows the Church of St. Janyl and Polaris. It has not yet won the league."
+    ],
+    "ru": [
+     "Город Ийык Джаныл основал клуб к первому сезону Лиги Ирада в 1994 году. На эмблеме — церковь Святой Джаныл и Полярная звезда. Чемпионом лиги клуб пока не становился."
+    ]
+   },
+   "former": null
+  },
+  {
+   "id": "karabuura",
+   "brand": "fk-karabuura",
+   "name": {
+    "en": "Kara-Buura",
+    "ir": "Kara-Buura",
+    "ru": "Кара-Буура"
+   },
+   "short": {
+    "en": "Kara-Buura",
+    "ir": "Kara-Buura",
+    "ru": "Кара-Буура"
+   },
+   "city": {
+    "en": "Kyzyl-Adyr",
+    "ir": "Kyzyl-Adyr",
+    "ru": "Кызыл-Адыр"
+   },
+   "founded": 1995,
+   "colours": {
+    "en": "Brick red, black and sand",
+    "ir": "Kızıl-kürüñ, kara jana kum tüs",
+    "ru": "Кирпично-красные, чёрные и песочные"
+   },
+   "colour": [
+    "#A8412B",
+    "#1C1A19"
+   ],
+   "ground": "karabuura-district-stadium",
+   "owner": {
+    "en": "Kara-Buura District",
+    "ir": "Kara-Buura aymagı",
+    "ru": "Кара-Бууринский район"
+   },
+   "titles": 0,
+   "about": {
+    "en": "The Kara-Buura District's club, founded in 1995 and based in Kyzyl-Adyr.",
+    "ir": "1995-jılı negizdelgen, Kyzyl-Adyrda jaygashkan Kara-Buura aymagının klubu.",
+    "ru": "Клуб Кара-Бууринского района, основан в 1995 году, базируется в Кызыл-Адыре."
+   },
+   "history": {
+    "en": [
+     "Founded in 1995 and funded by the Kara-Buura District, the club plays in Kyzyl-Adyr. Its crest shows the Bactrian camel stallion (kara buura) that gives the district its name. It has not yet won the Irad League."
+    ],
+    "ru": [
+     "Клуб основан в 1995 году, финансируется Кара-Бууринским районом и играет в Кызыл-Адыре. На эмблеме — двугорбый верблюд-самец (kara buura), давший имя району. Лигу Ирада пока не выигрывал."
+    ]
+   },
+   "former": null
+  },
+  {
+   "id": "naryn",
+   "brand": "fk-naryn",
+   "name": {
+    "en": "Naryn Tash-Kömür",
+    "ir": "Naryn Tash-Kömür",
+    "ru": "Нарын Таш-Кумыр"
+   },
+   "short": {
+    "en": "Naryn",
+    "ir": "Naryn",
+    "ru": "Нарын"
+   },
+   "city": {
+    "en": "Tash-Kömür",
+    "ir": "Tash-Kömür",
+    "ru": "Таш-Кумыр"
+   },
+   "founded": 1952,
+   "colours": {
+    "en": "River teal and black",
+    "ir": "Darıya-kök jana kara",
+    "ru": "Сине-бирюзовые и чёрные"
+   },
+   "colour": [
+    "#1A6E91",
+    "#141619"
+   ],
+   "ground": "shakhtyor-stadium",
+   "owner": {
+    "en": "Naryn cascade power stations",
+    "ir": "Narın kaskadının elektr stantsiyaları",
+    "ru": "Электростанции Нарынского каскада"
+   },
+   "titles": 0,
+   "about": {
+    "en": "Tash-Kömür's club, the Soviet coal miners' team of 1952, renamed Naryn in 1993.",
+    "ir": "Tash-Kömürdün klubu, 1952-jılkı kömür kazuuchular komandası, 1993-jılı Narın dep atalgan.",
+    "ru": "Клуб Таш-Кумыра, советская шахтёрская команда 1952 года, в 1993 году переименована в «Нарын»."
+   },
+   "history": {
+    "en": [
+     "Founded in 1952 as the team of Tash-Kömür's coal miners, the club took the name Naryn in 1993. It is owned by the Naryn cascade power stations, and its crest shows an arch dam of the cascade. It has not yet won the Irad League."
+    ],
+    "ru": [
+     "Клуб основан в 1952 году как команда шахтёров Таш-Кумыра и в 1993 году получил название «Нарын». Принадлежит электростанциям Нарынского каскада; на эмблеме — арочная плотина каскада. Лигу Ирада пока не выигрывал."
+    ]
+   },
+   "former": null
+  }
+ ],
+ "grounds": {
+  "silk-road-arena": {
+   "name": {
+    "en": "Silk Road Arena",
+    "ir": "Jibek Jolu Arenasy",
+    "ru": "Арена «Шёлковый путь»"
+   },
+   "city": {
+    "en": "Talas",
+    "ir": "Talas",
+    "ru": "Талас"
+   },
+   "capacity": 21000,
+   "opened": 1956,
+   "rebuilt": 2014,
+   "map": [
+    42.52239,
+    72.23422
+   ],
+   "note": {
+    "en": "Opened in 1956 as the Dinamo Stadium and rebuilt in 2014 by the Talas Commercial Development Group. Home of Tulpar Talas and of the national team.",
+    "ir": "1956-jılı Dinamo stadionu bolup achılgan, 2014-jılı Talas Kommertsiyalık Önüktürüü Tobu tarabınan kayra kurulgan. Tulpar Talastın jana ulut kurama komandasının stadionu.",
+    "ru": "Открыта в 1956 году как стадион «Динамо», в 2014 году перестроена Talas Commercial Development Group. Домашний стадион «Тулпара» и национальной сборной."
+   }
+  },
+  "nurgaz-stadium": {
+   "name": {
+    "en": "NurGaz Stadium",
+    "ir": "NurGaz Stadionu",
+    "ru": "Стадион «НурГаз»"
+   },
+   "city": {
+    "en": "Nurzhan",
+    "ir": "Nurzhan",
+    "ru": "Нуржан"
+   },
+   "capacity": 16500,
+   "opened": 1958,
+   "map": [
+    43.59,
+    73.775
+   ],
+   "note": {
+    "en": "Opened in 1958 as the Neftyanik Stadium and renamed in 1998. Home of Neftchi Nurzhan. Venue of the final round's Kara-Ak derby on 31 October 2026.",
+    "ir": "1958-jılı Neftyanik stadionu bolup achılgan, 1998-jılı atı özgörgön. Neftchi Nurzhandın stadionu. 2026-jılı 31-oktyabrda akırkı turdagı Kara-Ak darbisi ushul jerde ötöt.",
+    "ru": "Открыт в 1958 году как стадион «Нефтяник», переименован в 1998 году. Домашний стадион «Нефтчи». 31 октября 2026 года здесь пройдёт дерби «Кара-Ак» заключительного тура."
+   }
+  },
+  "lokomotiv-stadium": {
+   "name": {
+    "en": "Lokomotiv Stadium",
+    "ir": "Lokomotiv Stadionu",
+    "ru": "Стадион «Локомотив»"
+   },
+   "city": {
+    "en": "Nurzhan",
+    "ir": "Nurzhan",
+    "ru": "Нуржан"
+   },
+   "capacity": 8500,
+   "opened": 1951,
+   "map": [
+    43.613,
+    73.772
+   ],
+   "note": {
+    "en": "The railway workers' ground by Nurzhan station. Home of Temirjolchu Nurzhan.",
+    "ir": "Nurzhan vokzalının janındagı temir jolchulardın stadionu. Temirjolchu Nurzhandın stadionu.",
+    "ru": "Стадион железнодорожников у вокзала Нуржана. Домашний стадион «Темиржолчу»."
+   }
+  },
+  "attelkom-park": {
+   "name": {
+    "en": "Attelkom Park",
+    "ir": "Attelkom Parky",
+    "ru": "Аттелком Парк"
+   },
+   "city": {
+    "en": "Talas",
+    "ir": "Talas",
+    "ru": "Талас"
+   },
+   "capacity": 6000,
+   "opened": 1998,
+   "map": [
+    42.5131,
+    72.19565
+   ],
+   "note": {
+    "en": "Attelkom's ground in the western corridor of Talas. Home of Attelkom Talas.",
+    "ir": "Talastın batısh koridorundagı Attelkomdun stadionu. Attelkom Talastın stadionu.",
+    "ru": "Стадион «Аттелкома» в западном коридоре Таласа. Домашний стадион «Аттелком Талас»."
+   }
+  },
+  "tsu-stadium": {
+   "name": {
+    "en": "TSU Stadium",
+    "ir": "TMU Stadionu",
+    "ru": "Стадион ТГУ"
+   },
+   "city": {
+    "en": "Talas",
+    "ir": "Talas",
+    "ru": "Талас"
+   },
+   "capacity": 4500,
+   "opened": 1966,
+   "map": [
+    42.48642,
+    72.25003
+   ],
+   "note": {
+    "en": "On the campus of Talas State University. Home of Universitet Talas and of the university's women's team.",
+    "ir": "Talas mamlekettik universitetinin kampusunda. Universitet Talastın jana universitettin ayaldar komandasının stadionu.",
+    "ru": "На кампусе Таласского государственного университета. Домашний стадион «Университета» и женской команды университета."
+   }
+  },
+  "dastgoh-stadium": {
+   "name": {
+    "en": "Dastgoh Stadium",
+    "ir": "Dastgoh Stadionu",
+    "ru": "Стадион «Дастгох»"
+   },
+   "city": {
+    "en": "Nurzhan",
+    "ir": "Nurzhan",
+    "ru": "Нуржан"
+   },
+   "capacity": 7000,
+   "opened": 1962,
+   "note": {
+    "en": "The Nurzhanmash works ground in Nurzhan's Dastgoh district. Home of Dastgoh Nurzhan.",
+    "ir": "Nurzhandın Dastgoh rayonundagı Nurzhanmash zavodunun stadionu. Dastgoh Nurzhandın stadionu.",
+    "ru": "Заводской стадион «Нуржанмаша» в Дастгохском районе Нуржана. Домашний стадион «Дастгоха»."
+   }
+  },
+  "kombinat-stadium": {
+   "name": {
+    "en": "Kombinat Stadium",
+    "ir": "Kombinat Stadionu",
+    "ru": "Стадион «Комбинат»"
+   },
+   "city": {
+    "en": "Chatkal (Sary-Bulak District)",
+    "ir": "Chatkal (Sarı-Bulak aymagı)",
+    "ru": "Чаткал (Сары-Булакский район)"
+   },
+   "capacity": 3000,
+   "opened": 1963,
+   "note": {
+    "en": "The antimony combine's ground at the Chatkal works settlement. Home of Surma Chatkal.",
+    "ir": "Chatkal posyologundagı surma kombinatının stadionu. Surma Chatkaldın stadionu.",
+    "ru": "Стадион сурьмяного комбината в посёлке Чаткал. Домашний стадион «Сурмы»."
+   }
+  },
+  "iyikjanyl-city-stadium": {
+   "name": {
+    "en": "Iyık Janyl City Stadium",
+    "ir": "Iyık Janyl Shaardık Stadionu",
+    "ru": "Городской стадион Ийык Джаныла"
+   },
+   "city": {
+    "en": "Iyık Janyl",
+    "ir": "Iyık Janyl",
+    "ru": "Ийык Джаныл"
+   },
+   "capacity": 6500,
+   "opened": 1972,
+   "note": {
+    "en": "The municipal ground in the Lower Town. Home of FC Iyık Janyl.",
+    "ir": "Tömönkü shaardagı munitsipaldık stadion. FC Iyık Janyldın stadionu.",
+    "ru": "Муниципальный стадион в Нижнем городе. Домашний стадион «Ийык Джаныла»."
+   }
+  },
+  "karabuura-district-stadium": {
+   "name": {
+    "en": "Kara-Buura District Stadium",
+    "ir": "Kara-Buura Aymaktık Stadionu",
+    "ru": "Районный стадион «Кара-Буура»"
+   },
+   "city": {
+    "en": "Kyzyl-Adyr",
+    "ir": "Kyzyl-Adyr",
+    "ru": "Кызыл-Адыр"
+   },
+   "capacity": 3500,
+   "opened": 1978,
+   "note": {
+    "en": "The district ground in Kyzyl-Adyr. Home of Kara-Buura.",
+    "ir": "Kyzyl-Adyrdagı aymaktık stadion. Kara-Buuranın stadionu.",
+    "ru": "Районный стадион в Кызыл-Адыре. Домашний стадион «Кара-Буура»."
+   }
+  },
+  "shakhtyor-stadium": {
+   "name": {
+    "en": "Shakhtyor Stadium",
+    "ir": "Shakhtyor Stadionu",
+    "ru": "Стадион «Шахтёр»"
+   },
+   "city": {
+    "en": "Tash-Kömür",
+    "ir": "Tash-Kömür",
+    "ru": "Таш-Кумыр"
+   },
+   "capacity": 4000,
+   "opened": 1955,
+   "note": {
+    "en": "Built for the coal miners' team of Tash-Kömür. Home of Naryn Tash-Kömür.",
+    "ir": "Tash-Kömürdün kömür kazuuchular komandası üchün kurulgan. Naryn Tash-Kömürdün stadionu.",
+    "ru": "Построен для команды шахтёров Таш-Кумыра. Домашний стадион «Нарына»."
+   }
+  }
+ }
+}

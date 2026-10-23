@@ -1,0 +1,199 @@
+{
+ "_note": "Irad League champions. 2007 not played. format: the league's shape by period.",
+ "seasons": [
+  {
+   "year": 1994,
+   "champion": "neftchi",
+   "runner_up": "tulpar"
+  },
+  {
+   "year": 1995,
+   "champion": "neftchi",
+   "runner_up": "temirjolchu"
+  },
+  {
+   "year": 1996,
+   "champion": "neftchi",
+   "runner_up": "tulpar"
+  },
+  {
+   "year": 1997,
+   "champion": "tulpar",
+   "runner_up": "neftchi"
+  },
+  {
+   "year": 1998,
+   "champion": "neftchi",
+   "runner_up": "tulpar"
+  },
+  {
+   "year": 1999,
+   "champion": "temirjolchu",
+   "runner_up": "neftchi"
+  },
+  {
+   "year": 2000,
+   "champion": "neftchi",
+   "runner_up": "attelkom"
+  },
+  {
+   "year": 2001,
+   "champion": "neftchi",
+   "runner_up": "tulpar"
+  },
+  {
+   "year": 2002,
+   "champion": "tulpar",
+   "runner_up": "neftchi"
+  },
+  {
+   "year": 2003,
+   "champion": "neftchi",
+   "runner_up": "universitet"
+  },
+  {
+   "year": 2004,
+   "champion": "universitet",
+   "runner_up": "neftchi"
+  },
+  {
+   "year": 2005,
+   "champion": "neftchi",
+   "runner_up": "tulpar"
+  },
+  {
+   "year": 2006,
+   "champion": "temirjolchu",
+   "runner_up": "neftchi"
+  },
+  {
+   "year": 2007,
+   "champion": null,
+   "note": {
+    "en": "Season cancelled because of the war.",
+    "ir": "Sogushka baylanıshtuu sezon ötkörülgön jok.",
+    "ru": "Сезон отменён из-за войны."
+   }
+  },
+  {
+   "year": 2008,
+   "champion": "attelkom",
+   "runner_up": "temirjolchu"
+  },
+  {
+   "year": 2009,
+   "champion": "tulpar",
+   "runner_up": "neftchi"
+  },
+  {
+   "year": 2010,
+   "champion": "surma",
+   "runner_up": "attelkom"
+  },
+  {
+   "year": 2011,
+   "champion": "tulpar",
+   "runner_up": "neftchi"
+  },
+  {
+   "year": 2012,
+   "champion": "neftchi",
+   "runner_up": "tulpar"
+  },
+  {
+   "year": 2013,
+   "champion": "temirjolchu",
+   "runner_up": "tulpar"
+  },
+  {
+   "year": 2014,
+   "champion": "tulpar",
+   "runner_up": "neftchi"
+  },
+  {
+   "year": 2015,
+   "champion": "tulpar",
+   "runner_up": "neftchi"
+  },
+  {
+   "year": 2016,
+   "champion": "tulpar",
+   "runner_up": "attelkom"
+  },
+  {
+   "year": 2017,
+   "champion": "neftchi",
+   "runner_up": "tulpar"
+  },
+  {
+   "year": 2018,
+   "champion": "tulpar",
+   "runner_up": "neftchi"
+  },
+  {
+   "year": 2019,
+   "champion": "tulpar",
+   "runner_up": "neftchi"
+  },
+  {
+   "year": 2020,
+   "champion": "attelkom",
+   "runner_up": "tulpar"
+  },
+  {
+   "year": 2021,
+   "champion": "neftchi",
+   "runner_up": "tulpar"
+  },
+  {
+   "year": 2022,
+   "champion": "tulpar",
+   "runner_up": "neftchi"
+  },
+  {
+   "year": 2023,
+   "champion": "neftchi",
+   "runner_up": "tulpar"
+  },
+  {
+   "year": 2024,
+   "champion": "tulpar",
+   "runner_up": "neftchi"
+  },
+  {
+   "year": 2025,
+   "champion": "neftchi",
+   "runner_up": "tulpar"
+  }
+ ],
+ "format": [
+  {
+   "from": 1994,
+   "to": 2019,
+   "clubs": 8,
+   "rounds": 28,
+   "text": {
+    "en": "Eight clubs, four rounds (28 matchdays).",
+    "ir": "Segiz klub, tört aylanma (28 tur).",
+    "ru": "Восемь клубов, четыре круга (28 туров)."
+   }
+  },
+  {
+   "from": 2020,
+   "to": null,
+   "clubs": 10,
+   "rounds": 27,
+   "text": {
+    "en": "Ten clubs, three rounds (27 matchdays), March to November.",
+    "ir": "On klub, üch aylanma (27 tur), marttan noyabrga cheyin.",
+    "ru": "Десять клубов, три круга (27 туров), с марта по ноябрь."
+   }
+  }
+ ],
+ "derby_to_2025": {
+  "played": 118,
+  "neftchi": 46,
+  "tulpar": 43,
+  "draws": 29
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "_note": "Irad Cup 2026. Single matches; extra time and penalties if level.",
+ "season": 2026,
+ "rounds": [
+  {
+   "key": "sf",
+   "date": "2026-10-17",
+   "matches": [
+    {
+     "home": "karabuura",
+     "away": "neftchi",
+     "time": "15:00",
+     "venue": "karabuura-district-stadium",
+     "score": [
+      0,
+      2
+     ]
+    },
+    {
+     "home": "attelkom",
+     "away": "temirjolchu",
+     "time": "15:00",
+     "venue": "attelkom-park",
+     "score": [
+      2,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "key": "final",
+   "date": "2026-11-07",
+   "matches": [
+    {
+     "home": "neftchi",
+     "away": "attelkom",
+     "time": "14:00",
+     "venue": "silk-road-arena",
+     "score": null,
+     "neutral": true,
+     "tv": [
+      "IradOne Sport",
+      "IradOdin"
+     ]
+    }
+   ]
+  }
+ ]
+}

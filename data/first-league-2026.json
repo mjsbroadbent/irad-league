@@ -1,0 +1,204 @@
+{
+ "_note": "First League 2026 standings (triple round robin, 21 rounds, Sundays). Only the table is published here.",
+ "season": 2026,
+ "rounds": 21,
+ "after_round": 19,
+ "after_date": "2026-10-18",
+ "next": {
+  "round": 20,
+  "date": "2026-10-25"
+ },
+ "clubs": [
+  {
+   "id": "bazarkorgon",
+   "name": {
+    "en": "Bazar-Korgon",
+    "ir": "Bazar-Korgon",
+    "ru": "Базар-Коргон"
+   },
+   "city": {
+    "en": "Bazar-Korgon",
+    "ir": "Bazar-Korgon",
+    "ru": "Базар-Коргон"
+   }
+  },
+  {
+   "id": "toktogul",
+   "name": {
+    "en": "Toktogul",
+    "ir": "Toktogul",
+    "ru": "Токтогул"
+   },
+   "city": {
+    "en": "Toktogul",
+    "ir": "Toktogul",
+    "ru": "Токтогул"
+   }
+  },
+  {
+   "id": "semiz",
+   "name": {
+    "en": "Deportivo Semiz",
+    "ir": "Deportivo Semiz",
+    "ru": "«Депортиво» Семиз"
+   },
+   "city": {
+    "en": "Semiz, Talas",
+    "ir": "Semiz, Talas",
+    "ru": "Семиз, Талас"
+   },
+   "note": {
+    "en": "In the First League since 2018; grew out of the amateur league of the Mexican community of Talas.",
+    "ir": "2018-jıldan beri Birinchi Ligada; Talastagı meksikalık jamaattın ışkıbaz ligasınan chıkkan.",
+    "ru": "В Первой лиге с 2018 года; вырос из любительской лиги мексиканской общины Таласа."
+   }
+  },
+  {
+   "id": "karabulak",
+   "name": {
+    "en": "Kara-Bulak",
+    "ir": "Kara-Bulak",
+    "ru": "Кара-Булак"
+   },
+   "city": {
+    "en": "Kara-Bulak",
+    "ir": "Kara-Bulak",
+    "ru": "Кара-Булак"
+   }
+  },
+  {
+   "id": "politekhnik",
+   "name": {
+    "en": "Politekhnik Nurzhan",
+    "ir": "Politekhnik Nurzhan",
+    "ru": "Политехник Нуржан"
+   },
+   "city": {
+    "en": "Nurzhan",
+    "ir": "Nurzhan",
+    "ru": "Нуржан"
+   }
+  },
+  {
+   "id": "beshterek",
+   "name": {
+    "en": "Besh-Terek",
+    "ir": "Besh-Terek",
+    "ru": "Беш-Терек"
+   },
+   "city": {
+    "en": "Besh-Terek, Chu District",
+    "ir": "Besh-Terek, Chüy aymagı",
+    "ru": "Беш-Терек, Чуйский район"
+   }
+  },
+  {
+   "id": "akademiya",
+   "name": {
+    "en": "Akademiya Talas",
+    "ir": "Akademiya Talas",
+    "ru": "Академия Талас"
+   },
+   "city": {
+    "en": "Talas",
+    "ir": "Talas",
+    "ru": "Талас"
+   }
+  },
+  {
+   "id": "navbahor",
+   "name": {
+    "en": "Navbahor Nurzhan",
+    "ir": "Navbahor Nurzhan",
+    "ru": "Навбахор Нуржан"
+   },
+   "city": {
+    "en": "Nurzhan",
+    "ir": "Nurzhan",
+    "ru": "Нуржан"
+   }
+  }
+ ],
+ "table": [
+  {
+   "club": "toktogul",
+   "p": 19,
+   "w": 10,
+   "d": 5,
+   "l": 4,
+   "gf": 27,
+   "ga": 20,
+   "pts": 35
+  },
+  {
+   "club": "politekhnik",
+   "p": 19,
+   "w": 9,
+   "d": 6,
+   "l": 4,
+   "gf": 26,
+   "ga": 20,
+   "pts": 33
+  },
+  {
+   "club": "semiz",
+   "p": 19,
+   "w": 9,
+   "d": 5,
+   "l": 5,
+   "gf": 34,
+   "ga": 25,
+   "pts": 32
+  },
+  {
+   "club": "bazarkorgon",
+   "p": 19,
+   "w": 7,
+   "d": 5,
+   "l": 7,
+   "gf": 29,
+   "ga": 23,
+   "pts": 26
+  },
+  {
+   "club": "akademiya",
+   "p": 19,
+   "w": 6,
+   "d": 4,
+   "l": 9,
+   "gf": 24,
+   "ga": 25,
+   "pts": 22
+  },
+  {
+   "club": "karabulak",
+   "p": 19,
+   "w": 6,
+   "d": 4,
+   "l": 9,
+   "gf": 25,
+   "ga": 27,
+   "pts": 22
+  },
+  {
+   "club": "navbahor",
+   "p": 19,
+   "w": 6,
+   "d": 4,
+   "l": 9,
+   "gf": 26,
+   "ga": 35,
+   "pts": 22
+  },
+  {
+   "club": "beshterek",
+   "p": 19,
+   "w": 6,
+   "d": 1,
+   "l": 12,
+   "gf": 16,
+   "ga": 32,
+   "pts": 19
+  }
+ ]
+}
