@@ -133,7 +133,7 @@
     var meta = [];
     if (o.date) meta.push(esc(fmtDate(date, { short: true, day: true })));
     meta.push(esc(groundName(m.venue)) + (m.neutral ? " (" + esc(t("neutral")) + ")" : ""));
-    if (st === "played" && o.time !== false) {}
+    if (st === "played" && (m.aet || m.pens)) meta.push("<b>" + esc(m.pens ? t("pens", { a: m.pens[0], b: m.pens[1] }) : t("aet")) + "</b>");
     if (m.referee && st !== "played") meta.push(esc(t("referee")) + ": <b>" + esc(L(m.referee)) + "</b>");
     if (m.tv && st !== "played") meta.push(m.tv.map(function (x) { return '<span class="tvb">' + esc(x) + "</span>"; }).join(""));
     return '<li class="m' + (derby ? " derby" : "") + (o.hl && (m.home === o.hl || m.away === o.hl) ? " hl" : "") + '"><div class="h">' + clubLink(m.home) + "</div>" + sc +
@@ -442,11 +442,17 @@
     $("#meet").innerHTML = '<div class="card-h"><h2>' + esc(t("meetings2026")) + '</h2></div><ul class="mlist">' + meet.map(function (x) { return matchHtml(x.m, x.r.date, { date: true }); }).join("") + "</ul>";
   };
 
+  function cupWinner(m) {
+    var a = m.score[0], b = m.score[1];
+    if (a === b && m.pens) { a = m.pens[0]; b = m.pens[1]; }
+    return a > b ? m.home : m.away;
+  }
   R.cup = function (D) {
     var c = D.cup, h = "";
     c.rounds.slice().reverse().forEach(function (r) {
       h += '<div class="card flush sect"><div class="card-h"><h2>' + esc(t(r.key === "final" ? "final" : "semi")) + '</h2><span class="sub">' + esc(fmtDate(r.date, { day: true, year: true })) + '</span></div><ul class="mlist">' +
-        r.matches.map(function (m) { return matchHtml(m, r.date); }).join("") + "</ul></div>";
+        r.matches.map(function (m) { return matchHtml(m, r.date); }).join("") + "</ul>" +
+        (r.key === "final" && r.matches[0] && r.matches[0].score ? '<p class="note" style="padding:0 18px 14px;margin:0"><b>' + esc(t("cupWon", { c: L(CLUBS[cupWinner(r.matches[0])].name) })) + "</b></p>" : "") + "</div>";
     });
     $("#cup").innerHTML = h;
   };
@@ -475,7 +481,8 @@
     var lt = w.latest, nx = w.next;
     var line = function (h, a, mid) { return '<li class="m"><div class="h"><span class="cl">' + esc(L(nm[h].name)) + "</span></div>" + mid + '<div class="a"><span class="cl">' + esc(L(nm[a].name)) + "</span></div></li>"; };
     $("#wllatest").innerHTML = '<div class="card-h"><h2>' + esc(t("latestResult")) + '</h2><span class="sub">' + esc(fmtDate(lt.date, { day: true })) + '</span></div><ul class="mlist">' + line(lt.home, lt.away, '<div class="sc">' + score(lt.score) + "</div>") + "</ul>";
-    $("#wlnext").innerHTML = '<div class="card-h"><h2>' + esc(t("round", { n: nx.round })) + '</h2><span class="sub">' + esc(fmtDate(nx.date, { day: true })) + '</span></div><ul class="mlist">' + nx.matches.map(function (m) { return line(m.home, m.away, '<div class="sc time">' + esc(nx.time) + "</div>"); }).join("") + "</ul>";
+    var done = nx.matches.every(function (m) { return m.score; });
+    $("#wlnext").innerHTML = '<div class="card-h"><h2>' + esc(done ? t("roundResults", { n: nx.round }) : t("round", { n: nx.round })) + '</h2><span class="sub">' + esc(fmtDate(nx.date, { day: true })) + '</span></div><ul class="mlist">' + nx.matches.map(function (m) { return line(m.home, m.away, m.score ? '<div class="sc">' + score(m.score) + "</div>" : '<div class="sc time">' + esc(nx.time) + "</div>"); }).join("") + "</ul>";
   };
 
   R.news = function (D) {

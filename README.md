@@ -39,13 +39,24 @@ switches language and renders everything that comes from `data/`.
 | `data/season-2026.json` | the 27 rounds: date, matches (home, away, time, venue, score, optional `tv`, `referee`) and `notes` for weekends without a round |
 | `data/champions.json` | champions and runners-up by year, the league's format by period, the derby record to the end of 2025 |
 | `data/news.json` | federation news: `title` and `summary` in three languages, `body` in en and ru |
-| `data/cup-2026.json` | Irad Cup semi-finals and final |
+| `data/cup-2026.json` | Irad Cup semi-finals and final (`aet`, `pens` when needed) |
 | `data/first-league-2026.json`, `data/womens-league-2026.json` | standings tables only (published as tables, not computed) |
 
 The Irad League table, form guide, title race, club pages and derby record are computed in the browser from
 `season-2026.json`, so a result entered there updates every page.
 
 ## Adding a round's results
+
+Results are filled in automatically every morning at about 03:10 Irad Time for matches that ended (kick-off plus two
+hours) and have no score yet: Saturday's round on Sunday morning, the Women's League's Sunday round on Monday, the
+cup final the morning after. It commits as "Web desk" with a message like "Results: 24 October 2026". A score already
+in the file is never changed, so a result typed in by hand before then stands. The fields it writes: `score` on
+league and cup matches, plus `aet: true` and `pens: [home, away]` on a cup tie decided in extra time or on penalties
+(both shown on the pages); in `womens-league-2026.json` a `score` on each of `next.matches`, the updated `table`,
+`after_round`, `after_date` and `latest`. The First League file has no fixtures, so its table is still updated by
+hand. Other sites (IradOne, Tulpar) read these files directly, so this repo is the one place results live.
+
+By hand:
 
 1. In `data/season-2026.json`, find the round (`"round": 26`) and replace each match's `"score": null` with
    `[home goals, away goals]`, e.g. `"score": [2, 1]`. A round can be filled in match by match.
