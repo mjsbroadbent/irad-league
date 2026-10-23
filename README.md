@@ -40,7 +40,7 @@ switches language and renders everything that comes from `data/`.
 | `data/champions.json` | champions and runners-up by year, the league's format by period, the derby record to the end of 2025 |
 | `data/news.json` | federation news: `title` and `summary` in three languages, `body` in en and ru |
 | `data/cup-2026.json` | Irad Cup semi-finals and final (`aet`, `pens` when needed) |
-| `data/first-league-2026.json`, `data/womens-league-2026.json` | standings tables only (published as tables, not computed) |
+| `data/first-league-2026.json`, `data/womens-league-2026.json` | published tables plus the next round of fixtures (`next`); the First League also lists the later rounds (`upcoming`) and the last round played (`last_round`) |
 
 The Irad League table, form guide, title race, club pages and derby record are computed in the browser from
 `season-2026.json`, so a result entered there updates every page.
@@ -53,8 +53,9 @@ cup final the morning after. It commits as "Web desk" with a message like "Resul
 in the file is never changed, so a result typed in by hand before then stands. The fields it writes: `score` on
 league and cup matches, plus `aet: true` and `pens: [home, away]` on a cup tie decided in extra time or on penalties
 (both shown on the pages); in `womens-league-2026.json` a `score` on each of `next.matches`, the updated `table`,
-`after_round`, `after_date` and `latest`. The First League file has no fixtures, so its table is still updated by
-hand. Other sites (IradOne, Tulpar) read these files directly, so this repo is the one place results live.
+`after_round`, `after_date` and `latest`; the First League file the same, after which the scored round moves to
+`last_round` and the first of `upcoming` becomes `next`. Add First League fixtures to `upcoming` before the
+round's date. Other sites (IradOne, Tulpar) read these files directly, so this repo is the one place results live.
 
 By hand:
 

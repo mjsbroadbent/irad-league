@@ -470,8 +470,21 @@
 
   R.first = function (D) {
     var f = D.first;
+    var hasFx = f.next && f.next.matches && f.next.matches.length;
     $("#fltable").innerHTML = '<div class="card-h"><h2>' + esc(t("nav_first")) + " " + f.season + '</h2><span class="sub">' + esc(t("afterRound", { n: f.after_round, m: f.rounds, d: fmtDate(f.after_date, { short: true }) })) + "</span></div>" + simpleTable(f, f.clubs, { top: true }) +
-      '<p class="note" style="padding:0 18px 14px">' + esc(t("nextRoundOn", { n: f.next.round, d: fmtDate(f.next.date, { day: true }) })) + "</p>";
+      (f.next && !hasFx ? '<p class="note" style="padding:0 18px 14px">' + esc(t("nextRoundOn", { n: f.next.round, d: fmtDate(f.next.date, { day: true }) })) + "</p>" : "");
+    var nm = {}; f.clubs.forEach(function (c) { nm[c.id] = c; });
+    var line = function (m, time) { return '<li class="m"><div class="h"><span class="cl">' + esc(L(nm[m.home].name)) + "</span></div>" + (m.score ? '<div class="sc">' + score(m.score) + "</div>" : '<div class="sc time">' + esc(time || "") + "</div>") + '<div class="a"><span class="cl">' + esc(L(nm[m.away].name)) + "</span></div></li>"; };
+    var block = function (r) {
+      var done = r.matches.every(function (m) { return m.score; });
+      return '<div class="card-h"><h2>' + esc(done ? t("roundResults", { n: r.round }) : t("round", { n: r.round })) + '</h2><span class="sub">' + esc(fmtDate(r.date, { day: true })) + '</span></div><ul class="mlist">' + r.matches.map(function (m) { return line(m, r.time); }).join("") + "</ul>";
+    };
+    var rounds = [];
+    if (f.last_round && f.last_round.matches) rounds.push(f.last_round);
+    if (hasFx) rounds.push(f.next);
+    (f.upcoming || []).forEach(function (r) { if (r.matches && r.matches.length) rounds.push(r); });
+    var fx = $("#flfixtures");
+    if (fx) { fx.innerHTML = rounds.map(block).join(""); fx.hidden = !rounds.length; }
     $("#flclubs").innerHTML = f.clubs.map(function (c) { return "<li><b>" + esc(L(c.name)) + "</b> · " + esc(L(c.city)) + (c.note ? '<br><span class="small muted">' + esc(L(c.note)) + "</span>" : "") + "</li>"; }).join("");
   };
 

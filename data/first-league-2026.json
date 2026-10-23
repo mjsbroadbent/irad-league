@@ -1,13 +1,57 @@
 {
- "_note": "First League 2026 standings (triple round robin, 21 rounds, Sundays). Only the table is published here.",
+ "_note": "First League 2026 (triple round robin, 21 rounds, Sundays). Table after the last round played; `next` is the coming round, `upcoming` the rounds after it.",
  "season": 2026,
  "rounds": 21,
  "after_round": 19,
  "after_date": "2026-10-18",
  "next": {
   "round": 20,
-  "date": "2026-10-25"
+  "date": "2026-10-25",
+  "time": "15:00",
+  "matches": [
+   {
+    "home": "toktogul",
+    "away": "semiz"
+   },
+   {
+    "home": "politekhnik",
+    "away": "bazarkorgon"
+   },
+   {
+    "home": "akademiya",
+    "away": "navbahor"
+   },
+   {
+    "home": "beshterek",
+    "away": "karabulak"
+   }
+  ]
  },
+ "upcoming": [
+  {
+   "round": 21,
+   "date": "2026-11-01",
+   "time": "15:00",
+   "matches": [
+    {
+     "home": "politekhnik",
+     "away": "toktogul"
+    },
+    {
+     "home": "semiz",
+     "away": "akademiya"
+    },
+    {
+     "home": "karabulak",
+     "away": "bazarkorgon"
+    },
+    {
+     "home": "navbahor",
+     "away": "beshterek"
+    }
+   ]
+  }
+ ],
  "clubs": [
   {
    "id": "bazarkorgon",
