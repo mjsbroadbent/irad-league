@@ -266,6 +266,9 @@ table.lt tr.cx td { color: var(--muted); font-style: italic; }
 .foot h4 { color: #fff; font-size: 13px; text-transform: uppercase; letter-spacing: .08em; margin: 0 0 10px; }
 .foot ul { list-style: none; margin: 0; padding: 0; }
 .foot li { margin-bottom: 6px; }
+.tulpar-ch { display: inline-flex; align-items: center; gap: 7px; }
+.tulpar-ch img, .club-head .tulpar-ch img { width: 18px; height: 18px; border-radius: 4px; flex: none; margin: 0; }
+.foot .tulpar-ch { margin-top: 2px; font-weight: 600; }
 .foot .brand-f { display: flex; gap: 10px; align-items: center; margin-bottom: 10px; color: #fff; font: 800 17px/1 var(--display); text-transform: uppercase; letter-spacing: .04em; }
 .foot .brand-f img { width: 30px; height: 32px; }
 .foot-b { border-top: 1px solid #22385c; margin-top: 22px; padding-top: 14px; display: flex; flex-wrap: wrap; gap: 6px 20px; justify-content: space-between; font-size: 12.5px; }

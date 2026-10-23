@@ -164,6 +164,10 @@
     return null;
   }
 
+  /* a club's or the league's channel on Tulpar: opens the app's subscribe sheet */
+  function tulparLink(handle, label) {
+    return '<a class="tulpar-ch" href="https://tulparapp.com/app/#sub=' + encodeURIComponent(handle) + '" rel="noopener"><img src="assets/tulpar.svg" alt="" width="18" height="18"><span>' + esc(label) + "</span></a>";
+  }
   /* ---------- header and footer ---------- */
   var NAV = [["home", "index.html"], ["table", "table.html"], ["fixtures", "fixtures.html"], ["clubs", "clubs.html"], ["champions", "champions.html"],
     ["derby", "derby.html"], ["cup", "cup.html"], { g: "more", items: [["news", "news.html"], ["stadiums", "stadiums.html"], ["first", "first-league.html"], ["women", "womens-league.html"], ["about", "about.html"]] }];
@@ -197,7 +201,7 @@
     }
     var foot = $("#foot");
     if (foot) {
-      foot.innerHTML = '<footer class="foot"><div class="wrap"><div class="foot-g"><div><div class="brand-f"><img src="assets/ffi-mark.svg" alt="" width="30" height="32">' + esc(t("league")) + "</div><p>" + esc(t("footAbout")) + "</p><p>" + esc(t("footTv")) + "</p></div>" +
+      foot.innerHTML = '<footer class="foot"><div class="wrap"><div class="foot-g"><div><div class="brand-f"><img src="assets/ffi-mark.svg" alt="" width="30" height="32">' + esc(t("league")) + "</div><p>" + esc(t("footAbout")) + "</p><p>" + esc(t("footTv")) + "</p>" + tulparLink("iradleague", t("footTulpar")) + "</div>" +
         "<div><h4>" + esc(t("footComp")) + '</h4><ul><li><a href="table.html">' + esc(t("nav_table")) + '</a></li><li><a href="fixtures.html">' + esc(t("nav_fixtures")) + '</a></li><li><a href="cup.html">' + esc(t("nav_cup")) + '</a></li><li><a href="first-league.html">' + esc(t("nav_first")) + '</a></li><li><a href="womens-league.html">' + esc(t("nav_women")) + "</a></li></ul></div>" +
         "<div><h4>" + esc(t("footFed")) + '</h4><ul><li><a href="about.html">' + esc(t("nav_about")) + '</a></li><li><a href="news.html">' + esc(t("nav_news")) + '</a></li><li><a href="clubs.html">' + esc(t("nav_clubs")) + '</a></li><li><a href="stadiums.html">' + esc(t("nav_stadiums")) + '</a></li><li><a href="champions.html">' + esc(t("nav_champions")) + "</a></li></ul></div></div>" +
         '<div class="foot-b"><span>' + esc(t("footCopy", { y: NOW.getUTCFullYear() })) + "</span><span>" + esc(t("footTime")) + "</span></div></div></footer>";
@@ -376,6 +380,7 @@
       [t("titles"), c.titles]
     ];
     if (c.former) facts.push([t("former"), esc(L(c.former))]);
+    if (c.tulpar) facts.push([t("tulparCh"), tulparLink(c.tulpar, "@" + c.tulpar)]);
     var next = null;
     s.rounds.some(function (r) { return r.matches.some(function (m) { if (!m.score && (m.home === id || m.away === id)) { next = { m: m, r: r }; return true; } }); });
     var html = '<div class="card club-head" style="--c1:' + c.colour[0] + '"><img src="assets/crests/' + id + '.svg" alt="' + esc(L(c.name)) + '" width="170" height="170"><div><div class="page-h" style="margin:0"><div class="k">' + esc(t("league")) + " · " + esc(t("season", { y: s.season })) + "</div><h1>" + esc(L(c.name)) + '</h1><p class="muted" style="margin:0">' + esc(alt) + "</p></div>" +

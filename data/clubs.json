@@ -3,6 +3,7 @@
  "clubs": [
   {
    "id": "neftchi",
+   "tulpar": "neftchi",
    "brand": "fk-neftchi",
    "name": {
     "en": "Neftchi Nurzhan",
@@ -61,6 +62,7 @@
   },
   {
    "id": "tulpar",
+   "tulpar": "tulpartalas",
    "brand": "fk-tulpar",
    "name": {
     "en": "Tulpar Talas",
@@ -119,6 +121,7 @@
   },
   {
    "id": "temirjolchu",
+   "tulpar": "temirjolchu",
    "brand": "fk-temirjolchu",
    "name": {
     "en": "Temirjolchu Nurzhan",
@@ -175,6 +178,7 @@
   },
   {
    "id": "attelkom",
+   "tulpar": "attelkomtalas",
    "brand": "fk-attelkom",
    "name": {
     "en": "Attelkom Talas",
@@ -225,6 +229,7 @@
   },
   {
    "id": "universitet",
+   "tulpar": "universitet",
    "brand": "fk-universitet",
    "name": {
     "en": "Universitet Talas",
@@ -277,6 +282,7 @@
   },
   {
    "id": "surma",
+   "tulpar": "surma",
    "brand": "fk-surma",
    "name": {
     "en": "Surma Chatkal",
@@ -327,6 +333,7 @@
   },
   {
    "id": "dastgoh",
+   "tulpar": "dastgoh",
    "brand": "fk-dastgoh",
    "name": {
     "en": "Dastgoh Nurzhan",
@@ -377,6 +384,7 @@
   },
   {
    "id": "iyikjanyl",
+   "tulpar": "fciyikjanyl",
    "brand": "fc-iyikjanyl",
    "name": {
     "en": "FC Iyık Janyl",
@@ -427,6 +435,7 @@
   },
   {
    "id": "karabuura",
+   "tulpar": "karabuura",
    "brand": "fk-karabuura",
    "name": {
     "en": "Kara-Buura",
@@ -477,6 +486,7 @@
   },
   {
    "id": "naryn",
+   "tulpar": "narynfk",
    "brand": "fk-naryn",
    "name": {
     "en": "Naryn Tash-Kömür",

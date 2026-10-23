@@ -35,7 +35,7 @@ switches language and renders everything that comes from `data/`.
 
 | File | What |
 |---|---|
-| `data/clubs.json` | `clubs` (id, names in three languages, city, founded, colours, ground, owner, titles, history in en/ru) and `grounds` |
+| `data/clubs.json` | `clubs` (id, `tulpar` (the club's channel handle on Tulpar, linked on its page as `https://tulparapp.com/app/#sub=<handle>`), names in three languages, city, founded, colours, ground, owner, titles, history in en/ru) and `grounds` |
 | `data/season-2026.json` | the 27 rounds: date, matches (home, away, time, venue, score, optional `tv`, `referee`) and `notes` for weekends without a round |
 | `data/champions.json` | champions and runners-up by year, the league's format by period, the derby record to the end of 2025 |
 | `data/news.json` | federation news: `title` and `summary` in three languages, `body` in en and ru |
